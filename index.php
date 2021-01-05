@@ -11,9 +11,8 @@
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
-    <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <!-- gradient -->
     <style>
       .gradient {
         background: linear-gradient(90deg, #132247 0%, #b8b2b2 100%);
@@ -67,10 +66,10 @@
             Webifly Solutions
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just right!
+            Web Development, Digital Marketing, Software Development, College Projects and so .....
           </p>
           <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Contact Now
+            <a href="contact.php">Contact Now</a>
           </button>
         </div>
         <!--Right Col-->
