@@ -10,12 +10,15 @@
         .dropdown:hover .dropdown-menu {
           display: block;
           }
+          .gradient {
+            background: linear-gradient(90deg, #132247 0%, #b8b2b2 100%);
+          }
       </style>
   </head>
   <body>
-    <nav class="nav flex flex-wrap items-center justify-between px-4 lap">
+    <nav class="nav gradient flex flex-wrap items-center justify-between px-4 lap">
       <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
-        <span class="font-semibold text-xl tracking-tight"><span>Webifly</span></span>
+        <span class="font-semibold text-3xl tracking-tight"><span>Webifly Solutions</span></span>
       </div>
 
       <input class="menu-btn hidden" type="checkbox" id="menu-btn">
@@ -28,9 +31,6 @@
           <a href="index.php" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker ">Home</a>
         </li>
 
-        <!-- <li class="border-t md:border-none">
-          <a href="" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Services</a>
-        </li> -->
         <li class="border-t md:border-none dropdown inline-block relative">
           <a class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker"><span class="mr-1">Services</span></a>
           <ul class="dropdown-menu absolute hidden text-gray-100 pt-1">
@@ -52,42 +52,18 @@
           <a href="contact.php" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Contact</a>
         </li>
 
-
-
-        <!-- <div class="p-10">
-
-          <div class="dropdown inline-block relative">
-            <button class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-              <span class="mr-1">Dropdown</span>
-              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
-            </button>
-            <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
-              <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
-              <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
-              <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
-            </ul>
-          </div>
-
-        </div> -->
-
-
-
-
-
-
-
-
-
       </ul>
     </nav>
+<hr>
+
 <!-- about webifly -->
-<section class="text-gray-600 body-font bg-yellow-100">
+<section class="text-gray-600 body-font gradient">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center  ">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Webifly
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Webifly Solutions
         <br class="hidden lg:inline-block">
       </h1>
-      <p class="mb-8 leading-relaxed">We provide a wide range of information technology related products and digital marketing services including application development, business process outsourcing, web development, SEO and Hosting services. Our main Products & Services include: E-commerce Solutions (Website & Mobile App), Inventory Management Systems, CRM Solutions, ERP Softwares, Appointment / Booking Management System, Website Development (Corporate, Start-up, Classified, Directory Listing, Education, Technology, Entertainment, Travel, Real-Estate, Travels etc), Learning Management System, Live Chat Systems,</p>
+      <p class="mb-8 leading-relaxed text-white">We provide a wide range of information technology related products and digital marketing services including application development, business process outsourcing, web development, SEO and Hosting services. Our main Products & Services include: E-commerce Solutions (Website & Mobile App), Inventory Management Systems, CRM Solutions, ERP Softwares, Appointment / Booking Management System, Website Development (Corporate, Start-up, Classified, Directory Listing, Education, Technology, Entertainment, Travel, Real-Estate, Travels etc), Learning Management System, Live Chat Systems,</p>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img class="object-cover object-center rounded" alt="hero" src="images/about1.jpg">
@@ -161,7 +137,7 @@
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-gray-100 hover:bg-blue-100">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/eCommerce.jpg" alt="blog">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/ecommerce.jpg" alt="blog">
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">INDUSTRY</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Retail & E-Commerce</h1>
@@ -220,149 +196,8 @@
     </div>
   </div>
 </section>
-
-
-
-
-<hr>
-<!--
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Industry Coverage</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We cover all major industries and provide custom software consulting and development solutions catering to variegated needs of the industries.</p>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="learning.jpg">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Education & E-learning</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Industry</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="healthcare.jpg">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Healthcare</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Industry</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="travel.jpg">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Logistics & Transportaion</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Industry</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="transport.jpg">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Travel & Transportaion</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Industry</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="eCommerce.jpg">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Retail & E-commerce</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Industry</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="media.jpg">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Media & Entertainment</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Industry</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!--
 <hr>
 
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="text-center mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Industry Coverage</h1>
-      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">We cover all major industries and provide custom software consulting and development solutions catering to variegated needs of the industries.</p>
-    </div>
-    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-      <div class="p-2 sm:w-1/2 w-full">
-        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span class="title-font font-medium">Education & Elearning</span>
-        </div>
-      </div>
-      <div class="p-2 sm:w-1/2 w-full">
-        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span class="title-font font-medium">Traval & Tourism</span>
-        </div>
-      </div>
-      <div class="p-2 sm:w-1/2 w-full">
-        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span class="title-font font-medium">Media & Entertainment</span>
-        </div>
-      </div>
-      <div class="p-2 sm:w-1/2 w-full">
-        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span class="title-font font-medium">Retail & eCommerce</span>
-        </div>
-      </div>
-      <div class="p-2 sm:w-1/2 w-full">
-        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span class="title-font font-medium">Healthcare</span>
-        </div>
-      </div>
-      <div class="p-2 sm:w-1/2 w-full">
-        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-            <path d="M22 4L12 14.01l-3-3"></path>
-          </svg>
-          <span class="title-font font-medium">Logistics & Transportaion</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 <!-- component -->
 <style>
   .w-70 {
@@ -384,12 +219,6 @@
 
             <div class=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
 
-              <!-- <div class="header-content inline-flex ">
-                <div class="category-badge flex-1  h-4 w-4 m rounded-full m-1 bg-purple-100">
-                  <div class="h-2 w-2 rounded-full m-1 bg-purple-500 " ></div>
-                </div>
-                <div class="category-title flex-1 text-sm"> Founder</div>
-              </div> -->
               <div class="title-post font-medium">Name</div>
 
               <div class="summary-post text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veritatis vel suscipit ex dolore possimus iure.
@@ -404,12 +233,6 @@
 
             <div class=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
 
-              <!-- <div class="header-content inline-flex ">
-                <div class="category-badge flex-1  h-4 w-4 m rounded-full m-1 bg-yellow-100">
-                  <div class="h-2 w-2 rounded-full m-1 bg-yellow-500 " ></div>
-                </div>
-                <div class="category-title flex-1 text-sm"> Co-Founder</div>
-              </div> -->
               <div class="title-post font-medium">Name</div>
 
               <div class="summary-post text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veritatis vel suscipit ex dolore possimus iure.
@@ -418,26 +241,6 @@
 
             </div>
           </div>
-
-          <!-- <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-            <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1590608897129-79da98d15969?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"></div>
-
-            <div class=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
-
-              <div class="header-content inline-flex ">
-                <div class="category-badge flex-1  h-4 w-4 m rounded-full m-1 bg-green-100">
-                  <div class="h-2 w-2 rounded-full m-1 bg-green-500 " ></div>
-                </div>
-                <div class="category-title flex-1 text-sm"> Abc</div>
-              </div>
-              <div class="title-post font-medium">Mon titre</div>
-
-              <div class="summary-post text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veritatis vel suscipit ex dolore possimus iure.
-                <button class="bg-blue-100 text-blue-500 px-2 mt-4 block rounded p-2 text-sm"><span class="">Lire plus</span></button>
-              </div>
-
-            </div>
-          </div> -->
 
         </div>
       </div>
@@ -563,17 +366,9 @@
   </div>
 </section>
 
+<!-- footer -->
 <footer class="text-gray-900 body-font bg-black">
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg> -->
-        <span class="ml-3 text-xl bg-gray-100"> Webifly Solutions  </span>
-      </a>
-      <p class="mt-2 text-sm text-gray-500"></p>
-    </div>
     <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-100 tracking-widest text-md mb-3">Webifly Solutions</h2><hr>
@@ -582,15 +377,8 @@
           <li>
             <a class="text-gray-100 hover:text-gray-100">Developer Team</a>
           </li>
-          <!-- <li>
-            <a class="text-gray-200 hover:text-gray-100">Second ...</a>
-          </li>
-          <li>
-            <a class="text-gray-200 hover:text-gray-100">Third ...</a>
-          </li>
-          <li>
-            <a class="text-gray-200 hover:text-gray-100">Fourth ...</a>
-          </li> -->
+
+
 
         </nav>
       </div>
@@ -620,25 +408,25 @@
           </li>
         </nav>
       </div>
+
+
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-100 tracking-widest text-md mb-3">Get Started</h2><hr><br>
         <nav class="list-none mb-10">
           <li>
             <a class="text-gray-100 hover:text-gray-300">Get nitros to your full site business</a>
           </li>
-          <!-- <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li> -->
-          <button class="flex mx-auto mt-16 text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded-2xl text-sm">Register Now</button>
 
+          <li>
+            <a class="text-gray-100 hover:text-gray-300">Get a quote</a>
+          </li>
+
+
+          <!-- <button class="flex mx-auto mt-16 text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded-2xl text-sm">Get a quote</button> -->
         </nav>
       </div>
+
+
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-100 tracking-widest text-md mb-3">Contact Us</h2><hr><br>
         <nav class="list-none mb-10">
@@ -648,20 +436,16 @@
           <li>
             <a class="text-blue-400 hover:text-gray-300 underline">info@webiflysolutions.com</a>
           </li>
-          <!-- <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav> -->
+
+
+        </nav>
       </div>
     </div>
   </div><hr>
   <div class="bg-black">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Webifly —
-        <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@webifly</a>
+      <p class="text-gray-500 text-sm text-center sm:text-left">Copyright © 2021 Webifly Solutions —
+        <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@webiflysolutions</a>
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <a href="" class="text-gray-500">

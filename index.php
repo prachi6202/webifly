@@ -39,7 +39,7 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#service">Services</a>
+              <a class="inline-block py-2 px-4 text-black no-underline" href="#service">Services</a>
             </li>
             <li class="mr-3">
               <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="about.html">About Us</a>
@@ -74,7 +74,7 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
-          <img class="w-full md:w-4/5 z-50" src="hero.png" />
+          <img class="w-full md:w-4/5 z-50" src="images/hero.png" />
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img src="images/web_d1.jpg"  alt="">
+          <center>  <img src="images/web_d1.jpg"  alt=""> </center>
             <a href="web_d.html" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full text-center font-bold text-2xl text-gray-800 px-6">
                 Website Development
@@ -124,7 +124,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img src="images/software_d1.jpeg"  alt="">
+            <center>  <img src="images/software_d1.jpeg"  alt="">   </center>
             <a href="software_d.html" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full text-center font-bold text-2xl text-gray-800 px-6">
                 ERP/CRM Software Development
@@ -141,7 +141,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img src="images/android_d.jpg"  alt="">
+            <center>  <img src="images/android_d.jpg"  alt="">  </center>
             <a href="android.html" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full text-center font-bold text-2xl text-gray-800 px-6">
                 Android App Development
@@ -166,7 +166,7 @@
         </div> -->
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img src="images/digital_d.png"  alt="">
+              <center><img src="images/digital_d.png"  alt="">  </center>
             <a href="digital.html" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full text-center font-bold text-2xl text-gray-800 px-6">
                 Digital Marketing
@@ -183,7 +183,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img src="images/ecommerce_d.jpg"  alt="">
+            <center>  <img src="images/ecommerce_d.jpg"  alt="">  </center>
             <a href="e_commerce_d.html" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full text-center font-bold text-2xl text-gray-800 px-6">
                 E-commerce Web Development
@@ -200,7 +200,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <img src="images/college.jpg"  alt="">
+            <center>  <img src="images/college.jpg"  alt="">   </center>
             <a href="clg_project.html" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full text-center font-bold text-2xl text-gray-800 px-6">
                 College Project
@@ -219,7 +219,7 @@
     </section>
 
     <!-- Change the colour #f8fafc to match the previous section colour -->
-    <!-- <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
           <g class="wave" fill="#f8fafc">
@@ -242,30 +242,25 @@
     </svg>
     <section class="container mx-auto text-center py-6 mb-12">
       <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        Call to Action
+        Get in Touch with us
       </h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
-        Main Hero Message to sell yourself!
+        Email - <a href="#">info@webiflysolutions.com</a>
+      </h3>
+      <h3 class="my-4 text-3xl leading-tight">
+        Phone - 7447753759
       </h3>
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Get in Touch with us
+        <a href="contact.php">Contact Now</a>
       </button>
-    </section> -->
+    </section>
     <!--Footer-->
+
     <footer class="text-gray-900 body-font bg-black">
       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg> -->
-            <span class="ml-3 text-xl bg-gray-100"> Webifly Solutions  </span>
-          </a>
-          <p class="mt-2 text-sm text-gray-500"></p>
-        </div>
         <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-medium text-gray-100 tracking-widest text-md mb-3">Webifly Solutions</h2><hr>
@@ -274,15 +269,8 @@
               <li>
                 <a class="text-gray-100 hover:text-gray-100">Developer Team</a>
               </li>
-              <!-- <li>
-                <a class="text-gray-200 hover:text-gray-100">Second ...</a>
-              </li>
-              <li>
-                <a class="text-gray-200 hover:text-gray-100">Third ...</a>
-              </li>
-              <li>
-                <a class="text-gray-200 hover:text-gray-100">Fourth ...</a>
-              </li> -->
+
+
 
             </nav>
           </div>
@@ -312,25 +300,25 @@
               </li>
             </nav>
           </div>
+
+
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-medium text-gray-100 tracking-widest text-md mb-3">Get Started</h2><hr><br>
             <nav class="list-none mb-10">
               <li>
                 <a class="text-gray-100 hover:text-gray-300">Get nitros to your full site business</a>
               </li>
-              <!-- <li>
-                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-              </li>
-              <li>
-                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li> -->
-              <button class="flex mx-auto mt-16 text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded-2xl text-sm">Register Now</button>
 
+              <li>
+                <a class="text-gray-100 hover:text-gray-300">Get a quote</a>
+              </li>
+
+
+              <!-- <button class="flex mx-auto mt-16 text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded-2xl text-sm">Get a quote</button> -->
             </nav>
           </div>
+
+
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-medium text-gray-100 tracking-widest text-md mb-3">Contact Us</h2><hr><br>
             <nav class="list-none mb-10">
@@ -340,20 +328,16 @@
               <li>
                 <a class="text-blue-400 hover:text-gray-300 underline">info@webiflysolutions.com</a>
               </li>
-              <!-- <li>
-                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
-            </nav> -->
+
+
+            </nav>
           </div>
         </div>
       </div><hr>
       <div class="bg-black">
         <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Webifly —
-            <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@webifly</a>
+          <p class="text-gray-500 text-sm text-center sm:text-left">Copyright © 2021 Webifly Solutions —
+            <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@webiflysolutions</a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a href="" class="text-gray-500">
